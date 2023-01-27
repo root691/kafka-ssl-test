@@ -17,7 +17,7 @@ public static class TestProducer
             SslKeystoreLocation = @"C:\Users\n.korneev\Documents\Git\kafka-ssl-test\secrets\client.keystore.p12",
             SslKeystorePassword = "mylovelyca",
             SslKeyPassword = "mylovelyca",
-            //SslCaLocation = "ca.crt"
+            SslCaLocation = "ca.crt"
         };
 
         Action<DeliveryReport<string, string>> handler = r =>
